@@ -1,0 +1,214 @@
+body{
+ margin: 0;
+ padding: 0;
+ background: radial-gradient(#a429bc,#9225a7,#7f2092,#5c0a6c);
+ height: 100vh;
+ overflow: hidden;
+ font-family: 'Noto Sans TC', sans-serif;
+
+}
+.center{
+    width: 430px;
+    margin: 130px auto;
+    position: relative;
+    filter: drop-shadow( 3mm 3mm 2mm rgb(56, 7, 53));
+}
+.logo{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.logotext{
+    font-size: 100px;
+    font-family: Centra;
+    color: white;
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 7.5%;
+    filter: drop-shadow( 3mm 3mm 1mm rgb(56, 7, 53));
+}
+.logocp{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 2%;
+    filter: drop-shadow( 3mm 3mm 1mm rgb(56, 7, 53));
+
+}
+.box1{
+    width: 400px;
+    height: 400px;
+    background: #eee2f0;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -3%;
+    border-radius: 50%;
+    box-shadow: 1mm 1.3mm 2mm rgb(174, 171, 171) inset;
+    filter: drop-shadow( 3mm 3mm 2mm rgb(56, 7, 53));
+}
+
+    
+   
+.box2{
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    background: #5c0a6c;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 0%;    
+    box-shadow: 1mm 1.3mm 2mm rgb(174, 171, 171) inset;
+    filter: drop-shadow( 3mm 3mm 2mm rgb(56, 7, 53));
+}
+
+
+.box, .b1, .b2, .b3,
+.b4, .b5, .b6, .b7{
+  width: 180px;
+  height: 180px;
+  margin-left: 20%;
+  margin-top: 3%;
+  background: rgb(251, 249, 249);
+  position: absolute;
+  -webkit-animation: mover 4s infinite  alternate;
+  animation: mover 4s infinite  alternate;
+  opacity: 40%;
+ border-radius: 25px;
+}
+.b1{
+    margin-left: 75%;
+    margin-top: -10%;
+    width: 150px;
+    height: 150px;
+}
+.b2{
+    margin-left: 85%;
+    margin-top: 20%;
+    width: 230px;
+    height: 230px;
+}
+.b3{
+    margin-left: 65%;
+    margin-top: 10%;
+    width: 130px;
+    height: 130px;
+}
+.b4{
+    margin-left: 50%;
+    margin-top: 30%;
+    width: 200px;
+    height: 200px;
+}
+.b5{
+    margin-left: 35%;
+    margin-top: -20%;
+    width: 300px;
+    height: 300px;
+}
+.b6{
+    margin-left: 10%;
+    margin-top: 21%;
+    width: 130px;
+    height: 130px;
+}
+.b7{
+    margin-left: 2%;
+    margin-top: -8%;
+    width: 140px;
+    height: 140px;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100px); }
+}
+.header{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding: 25px 0 30px 25px;
+    background: #5c1769;
+    border-bottom: 1px solid #370e3f;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 1mm 1.3mm 2mm rgb(190, 149, 197) inset, -1mm 0mm 2mm rgb(190, 149, 197)  inset;
+}
+.MH{
+    font-size: 15px; 
+    position: absolute;
+}
+.MH-text{
+
+    color: aliceblue;
+}
+.center form{
+    position: absolute;
+    background: white;
+    width: 100%;
+    padding: 50px 10px 0 30px;
+    box-sizing: border-box;
+    border: 1px solid #6d1c7d;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 1mm -0.1mm 2mm rgb(174, 171, 171) inset, -1mm -1mm 2mm rgb(174, 171, 171) inset;
+}
+form input{
+    height: 50px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    font-size: 18px;
+    outline: none;
+}
+form input[type="password"]{
+ margin-top: 20px;
+}
+form i{
+    position: absolute;
+    font-size: 25px;
+    color: grey;
+    margin: 15px 0 0 -45px;
+}
+i.fa-lock{
+    margin-top: 35px;
+}
+form input[type="submit"]{
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 130px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    line-height: 45px;
+    background: #5c1769;
+}
+.cb{
+    width: 30px;
+    height: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+}
+.checklist{
+    font-size: 15px;
+    font-family: sans-serif;
+    color:rgb(39, 37, 37);
+}
+.link{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.language{
+    font-size: 15px;
+    margin-left: 125px;
+    margin-bottom: 10px;
+}
